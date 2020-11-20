@@ -1,5 +1,20 @@
 import java.util.*;
 public class Decode {
+    private String ciphertext;
+    private int shift;
+
+    public Decode(String ciphertext, int shift) {
+        this.ciphertext = ciphertext;
+        this.shift = shift;
+    }
+
+    public String getCiphertext(){
+        return this.ciphertext;
+    }
+
+    public int getShift(){
+        return this.shift;
+    }
     public static String decrypting(String ciphertext , int shift){
         String decryptMessage = "";
         for(int i=0; i < ciphertext.length();i++)

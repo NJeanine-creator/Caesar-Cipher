@@ -1,22 +1,35 @@
+import org.junit.Test;
+
+import java.awt.*;
+
 import static org.junit.Assert.*;
 
 public class EncodeTest {
     @Test
-    public void newRectangle_instantiatesCorrectly() {
-        Rectangle testRectangle = new Rectangle(2, 4);
-        assertEquals(true, testRectangle instanceof Rectangle);
+    public void newEncode_instantiatesCorrectly() {
+
+        Encode testEncode = new Encode("Hello", 4);
+        assertEquals(true, testEncode instanceof Encode);
     }
 
     @Test
-    public void newRectangle_getsHeight_2() {
-        Rectangle testRectangle = new Rectangle(2, 4);
-        assertEquals(2, testRectangle.getHeight());
+    public void newEncode_getsplaintext() {
+        Encode testEncode = new Encode("Hello", 4);
+        assertEquals("Hello", testEncode.getPlaintext());
     }
 
     @Test
-    public void getWidth_getsRectangleWidth_4() {
-        Rectangle testRectangle = new Rectangle(2, 4);
-        assertEquals(4, testRectangle.getWidth());
+    public void getshift_getsEncodeshift() {
+        Encode testEncode = new Encode("Hello", 4);
+        assertEquals(4, testEncode.getShift());
+    }
+    @Test
+    public void testencryption() {
+
+        int shift = 1;
+        String plaintext = "jeanine";
+        String expected = "kfbojof";
+        assertEquals(expected, Encode.encrypting( plaintext,shift));
     }
 
 }

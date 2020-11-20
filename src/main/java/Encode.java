@@ -7,7 +7,6 @@ public class Encode {
         this.plaintext = plaintext;
         this.shift = shift;
     }
-
     public String getPlaintext(){
         return this.plaintext;
     }
