@@ -1,5 +1,20 @@
 import java.util.*;
 public class Encode {
+    private String plaintext;
+    private int shift;
+
+    public Encode(String plaintext, int shift) {
+        this.plaintext = plaintext;
+        this.shift = shift;
+    }
+
+    public String getPlaintext(){
+        return this.plaintext;
+    }
+
+    public int getShift(){
+        return this.shift;
+    }
     public static String encrypting(String plaintext, int shift ){
         String ciphertext = "";
         char alphabet;
