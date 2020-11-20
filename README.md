@@ -1,4 +1,4 @@
-# Caesar cipher
+# Caesar Cipher
 
 ### Author: Jeanine NISHIMWE
 
