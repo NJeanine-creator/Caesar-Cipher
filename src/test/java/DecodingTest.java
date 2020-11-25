@@ -2,23 +2,23 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class DecodeTest {
+public class DecodingTest {
     @Test
     public void newEncode_instantiatesCorrectly() {
 
-        Decode testDecode = new Decode("Hello", 4);
-        assertEquals(true, testDecode instanceof Decode);
+        Decoding testDecoding = new Decoding("Hello", 4);
+        assertEquals(true, testDecoding instanceof Decoding);
     }
 
     @Test
     public void newDecode_getsciphertext() {
-        Decode testDecode = new Decode("Hello", 4);
+        Decoding testDecode = new Decoding("Hello", 4);
         assertEquals("Hello", testDecode.getCiphertext());
     }
 
     @Test
     public void getshift_getsDecodeshift() {
-        Decode testDecode = new Decode("Hello", 4);
+        Decoding testDecode = new Decoding("Hello", 4);
         assertEquals(4, testDecode.getShift());
     }
     @Test
@@ -27,7 +27,7 @@ public class DecodeTest {
         int shift = 1;
         String ciphertext = "kfbojof";
         String expected = "jeanine";
-        assertEquals(expected, Decode.decrypting( ciphertext,shift));
+        assertEquals(expected, Decoding.decrypting( ciphertext,shift));
     }
 
 }
