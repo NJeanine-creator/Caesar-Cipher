@@ -7,9 +7,18 @@ public class Decoding{
         this.shift = shift;
     }
 
-    public static String decrypting(String decrypting) {
-        String text = new String();
-        return text;
+    public static String encrypting(String decrypting) {
+
+        return decrypting;
+    }
+    public static int encrypting(int decrypting) {
+
+        return decrypting;
+    }
+
+    public static String decrypting(String encrypting) {
+
+        return encrypting;
     }
 
     public String getCiphertext(){
