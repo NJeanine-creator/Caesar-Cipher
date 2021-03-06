@@ -21,7 +21,18 @@ message only has characters (No space , no numbers or symbols)
 The file is in .txt format
 
 ## Languages used
-*Java
+* Java
+## Technology used
+* Intelli J IDEA
+* java
+* Git
+## B.D.D
+
+
+|behaviour   | input  |  output |   |
+|---|---|---|---|
+| encrypts text|input any string|  | displays the encrypted text  |
+| decrypts encrypted string| input string | displays the dencrypted text  
 
 ## Expected Output when you run the App and the test
 You can access them in folder called Test photo
