@@ -35,9 +35,13 @@ The file is in .txt format
 | decrypts encrypted string| input string | displays the dencrypted text  
 
 ## Expected Output when you run the App and the test
-You can access them in folder called Test photo
-
-
+You can access the photo in folder called Test photo
+* App.java
+![](app/src/main/res/test photo/App.png)
+* Decoding Test
+![](app/src/main/res/test photo/Decodetest.png)
+* Encoding Test
+![](app/src/main/res/test photo/Encodetest.png)
 ## Contributing
 
 If you want to put out a pull request you first have to send me the sample code that you want to add to my repository for cross-checking before I can allow the pull.
