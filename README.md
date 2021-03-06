@@ -37,11 +37,11 @@ The file is in .txt format
 ## Expected Output when you run the App and the test
 You can access the photo in folder called Test photo
 * App.java
-[App](test photo/App.png)
+![App](image/App.png)
 * Decoding Test
-[Decodetest](test photo/Decodetest.png)
+![Decodetest](image/Decodetest.png)
 * Encoding Test
-[Encodetest](test photo/Encodetest.png)
+![Encodetest](image/Encodetest.png)
 ## Contributing
 
 If you want to put out a pull request you first have to send me the sample code that you want to add to my repository for cross-checking before I can allow the pull.
