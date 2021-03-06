@@ -8,6 +8,6 @@ public class App {
         System.out.println(" Enter the value by which each character in the plaintext message gets shifted : ");
         int offset = sc.nextInt();
         System.out.println("Here is the encrypted text : "+Encoding.encrypting( text, offset ));
-        System.out.println("Here is the decrypted text : "+Decoding.decrypting(Encoding.encrypting(text,offset)));
+        System.out.println("Here is the decrypted text : "+Decoding.decrypting(Encoding.encrypting(text,offset),offset));
     }
 }
